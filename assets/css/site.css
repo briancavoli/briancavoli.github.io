@@ -278,10 +278,12 @@ strong{font-weight:600;color:var(--ink)}
   .article-layout{grid-template-columns:minmax(0,1fr)}
   .toc{display:none}
 }
-@media (max-width:760px){
-  body{font-size:1rem}
+@media (max-width:920px){
   .nav{display:none}
   .menu{display:block}
+}
+@media (max-width:760px){
+  body{font-size:1rem}
   .hero .wrap{grid-template-columns:minmax(0,1fr);padding-block:32px 52px;gap:28px}
   .portrait{flex-direction:row;align-items:center;gap:16px;order:-1}
   .portrait img{width:84px;border-radius:50%;aspect-ratio:1/1;object-position:50% 12%}
