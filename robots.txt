@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /for/
+Sitemap: https://briancavoli.github.io/sitemap.xml
