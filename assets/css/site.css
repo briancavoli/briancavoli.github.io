@@ -322,3 +322,19 @@ strong{font-weight:600;color:var(--ink)}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{.site-header,.site-footer,.menu,.connect-band{display:none}.hero,.page-hero,.section--navy{background:none;color:#000}.hero h1,.page-hero h1{color:#000}}
+
+/* Tags (expertise lists) ---------------------------------------------------- */
+.tags{display:flex;flex-wrap:wrap;gap:8px;max-width:none}
+.tags span{font-size:.875rem;line-height:1.3;color:var(--ink);background:var(--soft);border:1px solid var(--rule);border-radius:999px;padding:7px 12px}
+.section--soft .tags span{background:#fff}
+.glance{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 48px;border-top:1px solid var(--ink);padding-top:28px}
+.glance > *{min-width:0}
+.glance h3{font-size:1.125rem;letter-spacing:-.01em}
+
+/* Status labels (Growth Systems) ------------------------------------------- */
+.status{display:inline-block;align-self:flex-start;font:600 .6875rem/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;padding:6px 10px;border-radius:999px;background:var(--green);color:#fff}
+.status--plan{background:transparent;color:var(--muted);border:1px solid var(--rule)}
+.logic{display:flex;flex-direction:column;gap:14px}
+.logic dt{font:600 .75rem/1.3 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--green)}
+.logic dd{margin:2px 0 0}
+@media (max-width:1000px){.glance{grid-template-columns:minmax(0,1fr)}}

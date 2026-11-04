@@ -7,19 +7,19 @@ Personal executive website for Brian Cavoli, hosted on GitHub Pages. Plain HTML 
 | Page | File |
 |---|---|
 | Home | `index.html` |
-| Experience & Impact | `experience/index.html` |
+| Experience & Results | `experience/index.html` |
+| Marketing Leadership | `leadership/index.html` |
 | Tribute Home Care case study | `experience/tribute-home-care/index.html` |
 | dunnhumby & BzzAgent case study | `experience/dunnhumby-bzzagent/index.html` |
 | Growth Systems | `growth-systems/index.html` |
-| My Story | `my-story/index.html` |
 | Perspectives | `perspectives/index.html` |
-| The Next Generation of Home Care | `perspectives/next-generation-home-care/index.html` |
+| Building the Next Generation of Home Care | `perspectives/next-generation-home-care/index.html` |
 | Connect | `connect/index.html` |
 | Opportunity page template (unlisted) | `for/template/index.html` |
 | Not found | `404.html` |
 
 Shared assets live in `assets/` (`css/site.css`, self-hosted font, images, favicon, social share image).
-The old `.html` pages (`experience.html`, `growth-systems.html`, `marketing.html`, and the five system pages) are kept as redirects so existing links keep working.
+The old `.html` pages (`experience.html`, `growth-systems.html`, `marketing.html`, the five system pages, and `my-story/`) are kept as redirects so existing links keep working.
 
 ## Editing
 
